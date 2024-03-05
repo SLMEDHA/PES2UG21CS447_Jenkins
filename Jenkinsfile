@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Compile the .cpp file using a shell script
-                    sh 'g++ -o my_program pes2ug21cs447.cpp'
+                    sh 'g++ -o my_program pes2ug21cs47.cpp'
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Add deployment steps if needed
-                    echo Deployment steps go here'
+                    echo 'Deployment steps go here'
                 }
             }
         }
